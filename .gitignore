@@ -1,0 +1,26 @@
+# STM32CubeIDE build output
+**/Debug/
+**/Release/
+**/*.o
+**/*.d
+**/*.elf
+**/*.bin
+**/*.hex
+**/*.map
+**/*.lst
+
+# IDE files
+.settings/
+.cproject
+.project
+*.launch
+
+# Python
+__pycache__/
+*.pyc
+pc_tools/.venv/
+
+# KiCad
+**/*-backups/
+**/*.kicad_prl
+**/fp-info-cache
