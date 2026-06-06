@@ -24,3 +24,4 @@ pc_tools/.venv/
 **/*-backups/
 **/*.kicad_prl
 **/fp-info-cache
+pc_tools/*.csv
