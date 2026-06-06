@@ -103,7 +103,7 @@ T,002100,0x100,812,1700,0x03
 
 ## Stack
 
-C · STM32 HAL · MCP2515 · FreeRTOS (planned) · Python · KiCad
+C · STM32 HAL · MCP2515 · FreeRTOS · Python · Altium
 
 ## Author
 
