@@ -96,10 +96,10 @@ T,002100,0x100,812,1700,0x03
 - [x] Node 1: ADC scan acquisition, CAN TX frame packing
 - [x] Node 2: CAN RX, fault engine, UART telemetry
 - [ ] CubeMX project setup + HAL skeleton
-- [ ] Hardware bring-up (parts arriving)
+- [ ] Hardware bring-up
 - [ ] Python live visualization + mock serial
 - [ ] FreeRTOS task restructure (Node 2)
-- [ ] KiCad carrier PCB
+- [ ] Altium carrier PCB
 
 ## Stack
 
