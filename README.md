@@ -54,7 +54,7 @@ vtfd/
 │   ├── telemetry_monitor.py  # Live plot + CSV logger
 │   └── requirements.txt
 └── hardware/
-    └── kicad/                # Sensor node carrier PCB (in design)
+    └── Altium/                # Sensor node carrier PCB
 ```
 
 ## CAN Frame Specification
@@ -77,29 +77,6 @@ T,001234,0x100,744,2604,0x00
 T,001890,0x101,3779,0,0x00
 T,002100,0x100,812,1700,0x03
 ```
-
-## Hardware
-
-| Component            | Reichelt Article    | Qty |
-|----------------------|---------------------|-----|
-| STM32 Nucleo F401RE  | NUCLEO F401RE        | 2   |
-| MCP2515+MCP2562 module | DEBO CAN MODULE   | 2   |
-| LM35DZ temp sensor   | LM 35 DZ            | 1   |
-| ACS712-5A current    | DEBO2 SEN STROM     | 1   |
-| Breadboard 830       | BREADBOARD1 830     | 2   |
-| Resistors (120/330/10k/47k Ω) | 1/4W series | —  |
-| Jumper cables        | DEBO CABLE SET      | 1   |
-
-## Status
-
-- [x] MCP2515 SPI driver (register-level, both nodes)
-- [x] Node 1: ADC scan acquisition, CAN TX frame packing
-- [x] Node 2: CAN RX, fault engine, UART telemetry
-- [ ] CubeMX project setup + HAL skeleton
-- [ ] Hardware bring-up
-- [ ] Python live visualization + mock serial
-- [ ] FreeRTOS task restructure (Node 2)
-- [ ] Altium carrier PCB
 
 ## Stack
 
